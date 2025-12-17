@@ -1,6 +1,6 @@
 # Dephaze UDT
 
-> **Canonical implementation (DOI):** https://doi.org/10.5281/zenodo.17964792
+> **Canonical implementation (DOI):** (https://doi.org/10.5281/zenodo.17965773)
 
 This repository mirrors the published **Dephaze UDT v1.0** implementation.  
 The canonical, citable reference is the Zenodo record above.
@@ -106,7 +106,7 @@ Use, reproduction, modification, or redistribution requires explicit written per
 See LICENSE.txt for details.
 Dewer, Angus. (2025).
 Dephaze UDT – Deterministic Structural Ontology Engine (Implementation Layer) (v1.0).
-Zenodo. https://doi.org/10.5281/zenodo.17964792
+Zenodo. (https://doi.org/10.5281/zenodo.17965773)
 Status
  Canonical implementation archived on Zenodo
  Deterministic and reproducible
