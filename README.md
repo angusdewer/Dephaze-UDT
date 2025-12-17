@@ -93,9 +93,9 @@ It provides a **deterministic structural substrate** inspired by the broader Dep
  
 ### Core Demo (Recommended)
 This executes the main logic loop directly:
-```bash
+ 
 python run_udt.py
-### Requirements
+ 
 - Python **3.10 – 3.13**
 - No external dependencies
 
