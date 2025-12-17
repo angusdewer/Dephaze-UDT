@@ -95,8 +95,6 @@ It provides a **deterministic structural substrate** inspired by the broader Dep
 - Python **3.10 – 3.13**
 - No external dependencies
 
-### CLI (headless)
-```bash
 License
 © 1992–2025 Angus Dewer / Dephaze Manufacture
 All rights reserved.
