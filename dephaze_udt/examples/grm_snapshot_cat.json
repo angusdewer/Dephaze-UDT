@@ -1,0 +1,20 @@
+{
+  "version": "grm-1.0",
+  "nodes": {
+    "wiki:Cat": {
+      "label": "Cat",
+      "aliases": [
+        "Felis",
+        "Felidae",
+        "Near East",
+        "The United States",
+        "United Kingdom"
+      ],
+      "sources": [
+        "wikipedia",
+        "mention"
+      ],
+      "relations": []
+    }
+  }
+}

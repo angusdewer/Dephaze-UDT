@@ -1,0 +1,17 @@
+{
+  "version": "grm-1.0",
+  "nodes": {
+    "wiki:Cat": {
+      "label": "Cat",
+      "aliases": [
+        "Felis",
+        "Felidae"
+      ],
+      "sources": [
+        "wikipedia",
+        "mention"
+      ],
+      "relations": []
+    }
+  }
+}

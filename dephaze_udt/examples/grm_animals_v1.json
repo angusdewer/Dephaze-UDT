@@ -1,0 +1,262 @@
+{
+  "version": "grm-1.0",
+  "nodes": {
+    "wiki:Cat": {
+      "label": "Cat",
+      "aliases": [
+        "Felis",
+        "Felidae"
+      ],
+      "sources": [
+        "wikipedia",
+        "mention"
+      ],
+      "relations": []
+    },
+    "wiki:Dog": {
+      "label": "Dog",
+      "aliases": [
+        "Canis",
+        "Also",
+        "Late Pleistocene",
+        "Dogs",
+        "Due",
+        "They",
+        "Compared",
+        "Communication",
+        "Over",
+        "As",
+        "Developed"
+      ],
+      "sources": [
+        "wikipedia",
+        "mention"
+      ],
+      "relations": []
+    },
+    "wiki:Mouse": {
+      "label": "Mouse",
+      "aliases": [
+        "Characteristically",
+        "Mus",
+        "Mice",
+        "In",
+        "They",
+        "Generally",
+        "Typical",
+        "Peromyscus",
+        "Domestic",
+        "Cats",
+        "Despite",
+        "Due",
+        "Earth",
+        "Vermin",
+        "HPS",
+        "Primarily",
+        "These"
+      ],
+      "sources": [
+        "wikipedia",
+        "mention"
+      ],
+      "relations": []
+    },
+    "wiki:Lion": {
+      "label": "Lion",
+      "aliases": [
+        "Panthera",
+        "Sub",
+        "Saharan Africa",
+        "India",
+        "Groups",
+        "Adult",
+        "During",
+        "Neolithic",
+        "Africa",
+        "Eurasia",
+        "Southeast Europe",
+        "Vulnerable",
+        "IUCN",
+        "Red List",
+        "African",
+        "Although",
+        "Lions",
+        "Roman Empire",
+        "Cultural",
+        "They"
+      ],
+      "sources": [
+        "wikipedia",
+        "mention"
+      ],
+      "relations": []
+    },
+    "wiki:Tiger": {
+      "label": "Tiger",
+      "aliases": [
+        "Panthera",
+        "Asian",
+        "Sunda Islands",
+        "Throughout",
+        "Northeast China",
+        "Indian",
+        "Southeast Asia",
+        "Females",
+        "When",
+        "Since",
+        "West",
+        "Central Asia",
+        "Java",
+        "Bali",
+        "Endangered",
+        "IUCN",
+        "Red List",
+        "Threatened Species",
+        "Major",
+        "Tigers",
+        "National",
+        "In"
+      ],
+      "sources": [
+        "wikipedia",
+        "mention"
+      ],
+      "relations": []
+    },
+    "wiki:Horse": {
+      "label": "Horse",
+      "aliases": [
+        "Equus",
+        "Equidae",
+        "Eohippus",
+        "North America",
+        "Humans",
+        "Central Asia",
+        "Horses",
+        "These",
+        "There",
+        "Related",
+        "Most",
+        "They",
+        "Many"
+      ],
+      "sources": [
+        "wikipedia",
+        "mention"
+      ],
+      "relations": []
+    },
+    "wiki:Cattle": {
+      "label": "Cattle",
+      "aliases": [
+        "Bos",
+        "They",
+        "Bovinae",
+        "Mature",
+        "Young",
+        "As",
+        "Hinduism",
+        "Indian",
+        "Small",
+        "Zebu",
+        "Taurine",
+        "Americas",
+        "Australia",
+        "Zebus",
+        "India",
+        "America",
+        "Sanga",
+        "Saharan Africa",
+        "These",
+        "Around",
+        "Anatolia",
+        "Levant",
+        "Western Iran"
+      ],
+      "sources": [
+        "wikipedia",
+        "mention"
+      ],
+      "relations": []
+    },
+    "wiki:Sheep": {
+      "label": "Sheep",
+      "aliases": [
+        "Ovis",
+        "Although",
+        "Like",
+        "Artiodactyla",
+        "Numbering",
+        "Iran",
+        "One",
+        "In Commonwealth",
+        "In",
+        "Australia",
+        "New Zealand",
+        "South American",
+        "British Isles",
+        "There",
+        "Use",
+        "Middle English",
+        "Old English",
+        "Many",
+        "As",
+        "Arcadian",
+        "Golden Fleece",
+        "Abrahamic"
+      ],
+      "sources": [
+        "wikipedia",
+        "mention"
+      ],
+      "relations": []
+    },
+    "wiki:Wolf": {
+      "label": "Wolf",
+      "aliases": [
+        "Canis",
+        "Eurasia",
+        "North America",
+        "More",
+        "Canidae",
+        "Of",
+        "Offspring",
+        "Wolves",
+        "Single",
+        "Pathogens",
+        "Least Concern",
+        "International Union",
+        "Conservation",
+        "Nature",
+        "IUCN",
+        "Although"
+      ],
+      "sources": [
+        "wikipedia",
+        "mention"
+      ],
+      "relations": []
+    },
+    "wiki:Fox": {
+      "label": "Fox",
+      "aliases": [
+        "Foxes",
+        "Canidae",
+        "They",
+        "Twelve",
+        "Vulpes",
+        "Another",
+        "South American",
+        "Antarctica",
+        "British Isles",
+        "European",
+        "New World"
+      ],
+      "sources": [
+        "wikipedia",
+        "mention"
+      ],
+      "relations": []
+    }
+  }
+}

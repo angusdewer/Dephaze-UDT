@@ -1,0 +1,40 @@
+{
+  "stars": {
+    "star:34bfd64c84c3781f": {
+      "star_id": "star:34bfd64c84c3781f",
+      "label": "Cats are mammals.",
+      "x": -0.5402913940467732,
+      "y": 0.22578153311613977,
+      "z": 0.5705787713097641,
+      "r": 93,
+      "g": 144,
+      "b": 190,
+      "weight": 1,
+      "sigma_xi": 0.974643,
+      "sigma_spread": 0.026017,
+      "lambda_confidence": 0.5395569521013728,
+      "created_utc": 1765879581,
+      "updated_utc": 1765879581,
+      "source": "udt_validated"
+    },
+    "star:77af778b51abd4a3": {
+      "star_id": "star:77af778b51abd4a3",
+      "label": "cat",
+      "x": 0.11824328055921239,
+      "y": 0.021787768754798553,
+      "z": 0.08090092901592803,
+      "r": 79,
+      "g": 160,
+      "b": 199,
+      "weight": 1,
+      "sigma_xi": 0.978089,
+      "sigma_spread": 0.022402,
+      "lambda_confidence": 0.539245269092719,
+      "created_utc": 1765889561,
+      "updated_utc": 1765889561,
+      "source": "udt_validated"
+    }
+  },
+  "updated_utc": 1765889561,
+  "version": 1
+}

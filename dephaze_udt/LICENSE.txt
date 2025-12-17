@@ -1,0 +1,37 @@
+DEPHAZE UDT — RESEARCH & EVALUATION LICENSE v1.0
+
+Copyright © 1992–2025 Angus Dewer
+All rights reserved.
+
+This software, documentation, and all associated materials
+(the “Work”) are provided for inspection, evaluation,
+and non-commercial research purposes only.
+
+No rights are granted for commercial use, proprietary use,
+deployment in closed-source systems, military or surveillance
+applications, or integration into commercial AI systems
+without explicit written permission from the author.
+
+DEFENSIVE PUBLICATION NOTICE
+
+This Work is published as a defensive disclosure.
+
+All concepts, structures, algorithms, mappings, phase-space
+topologies, axioms, and implementations disclosed herein
+constitute PRIOR ART as defined under applicable patent law,
+including 35 U.S.C. §102(a)(1).
+
+No patent rights are granted by this license.
+
+ATTRIBUTION
+
+Any permitted use must retain the following attribution:
+
+Angus Dewer (1992–2025)
+Dephaze / Dephaze UDT / Dephaze NORTH
+https://www.dephaze.eu
+
+CONTACT
+
+For licensing inquiries or permissions, contact:
+angus@dephaze.eu

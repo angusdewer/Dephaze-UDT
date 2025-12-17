@@ -1,0 +1,88 @@
+# Dephaze UDT – Deterministic Structural Ontology Engine
+
+© 1992–2025 Angus Dewer / Dephaze Manufacture  
+All rights reserved.
+
+THIS IS NOT AN AI MODEL.
+
+Dephaze UDT is NOT an LLM, NOT a neural network, NOT probabilistic, NOT trained, NOT adaptive, NOT embedding-based, and NOT server-dependent. It is a fully deterministic structural ontology engine. Given the same input and the same locked world snapshot, it will always produce the same output.
+
+This repository represents a frozen, canonical implementation snapshot provided strictly for inspection, evaluation, and reproducibility.
+
+SYSTEM STATE (VERIFIED)
+Status: STABLE  
+Mode: SAFE MODE  
+Determinism: HARD (no randomness)  
+Learning: NONE  
+Persistent memory mutation: NONE  
+World state: LOCKED  
+Python: 3.10–3.13 tested  
+OS: Windows verified, OS-agnostic design  
+Entry points: run_udt.py, cli.py  
+
+Verified by clean restarts, cache purges, and reproducible executions.
+
+EXECUTION PIPELINE
+Input (string) → Phase Projection (Imago) → Lambda Engine (POOR + PCM) → Sigma Audit → Gödel Field → Branch Expansion (GROUP / ENTITY) → Deterministic Structured Output
+
+INVARIANTS
+No step feeds back into Imago.  
+No parameters are updated.  
+No hidden global state exists.  
+No learning loop is present.
+
+CORE COMPONENTS
+
+Imago Phase Field  
+Deterministic projection into bounded phase coordinates (θ, φ, ρ). This is NOT an embedding and NOT semantic similarity. Identical input strings yield identical coordinates.
+
+Lambda Engine (POOR + PCM)  
+Ontological resolution and local stabilization only. Selects a stable phase candidate and applies local coherence stabilization. No global feedback, no learning, no adaptation. Outputs chosen phase, confidence (structural, not probabilistic), and xi (coherence ratio).
+
+Sigma Audit  
+Local coherence monitoring only. Tracks history_len, xi, and spread. Sigma never alters phase state; it audits only and prevents uncontrolled drift.
+
+Gödel Field  
+Structural extraction layer. Extracts explicit relations of the form (subject) --[relation]--> (object) and mentions. No influence on phase, no inference loops, no learning. This is structural extraction, not NLP reasoning.
+
+Branch Expansion  
+Implemented branches: GROUP, ENTITY. Branches are evaluated independently. Each branch runs a full Phase → Lambda → Sigma cycle. No branch contaminates another.
+
+ATLAS (STAR MAP)
+Loaded, static, read-only. Used only for validation and anchoring. Not memory, not training data, not adaptive.
+
+WORLD STATE GOVERNANCE
+An immutable world snapshot is included: data/world_animals_v1.lock.json. The world state does not grow automatically. There is no uncontrolled knowledge expansion. All world data is explicit, governed, and auditable. New world states require explicit rebuild and re-lock.
+
+WIKIPEDIA ACCESS (CURRENT)
+Optional, explicit, online, read-only, and policy-gated. No crawling, no background access, no caching, and no learning from external content. Wikipedia is treated strictly as external evidence, never internal state.
+
+CURRENT CAPABILITIES
+Deterministic mapping of language input to phase coordinates.  
+Stable ontological branching.  
+Explicit structural relation extraction.  
+Coherence preservation without learning.  
+Structural scalability without degradation.  
+Audit-safe and reproducible execution.
+
+EXPLICIT NON-CAPABILITIES
+No learning.  
+No adaptation.  
+No embeddings.  
+No probability.  
+No hallucination.  
+No global memory accumulation.  
+No semantic similarity search.
+
+STRUCTURAL SCALABILITY
+Dephaze UDT scales structurally, not statistically. The current Wikipedia integration is a minimal baseline. The architecture supports extension to full world-scale structural star maps under the same deterministic rules. As structural coverage increases, coherence improves, ambiguity decreases, and performance becomes faster and more stable. This is the inverse behavior of training-based or embedding-based systems.
+
+SCOPE AND NON-CLAIMS
+This implementation does not implement the full DephazeAI cognitive architecture, does not implement the full NORTH system, does not perform physical simulation, and does not claim numerical validation of physical theories. It represents a deterministic structural substrate inspired by the broader Dephaze framework.
+
+
+LICENSE
+© 1992–2025 Angus Dewer / Dephaze Manufacture. All rights reserved. This software and associated materials are provided for inspection, evaluation, and reproducibility only. Any use, reproduction, modification, or redistribution requires explicit written permission from the author.
+
+CANONICAL STATUS
+This repository and this document constitute Dephaze UDT v1.0 — Canonical Frozen Implementation. All future work must explicitly reference this state.
