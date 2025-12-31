@@ -1,88 +1,104 @@
-# Dephaze UDT – Deterministic Structural Ontology Engine
+# Dephaze UDT v1.1 – Hybrid Structural & Flux Engine
 
 © 1992–2025 Angus Dewer / Dephaze Manufacture  
 All rights reserved.
 
-THIS IS NOT AN AI MODEL.
+THIS IS NOT A STANDARD AI MODEL.
 
-Dephaze UDT is NOT an LLM, NOT a neural network, NOT probabilistic, NOT trained, NOT adaptive, NOT embedding-based, and NOT server-dependent. It is a fully deterministic structural ontology engine. Given the same input and the same locked world snapshot, it will always produce the same output.
+Dephaze UDT is a "Zero-Fit" cognitive architecture that solves the AI hallucination problem by separating **Structure** (Memory) from **Generation** (Creativity).
 
-This repository represents a frozen, canonical implementation snapshot provided strictly for inspection, evaluation, and reproducibility.
+It combines:
+1.  **Deterministic Ontology** (The UDT V1 core)
+2.  **Generative Flux** (The Phi^3 Motor)
+3.  **Topological Validation** (The Gödel Filter)
 
-SYSTEM STATE (VERIFIED)
-Status: STABLE  
-Mode: SAFE MODE  
-Determinism: HARD (no randomness)  
-Learning: NONE  
-Persistent memory mutation: NONE  
-World state: LOCKED  
-Python: 3.10–3.13 tested  
-OS: Windows verified, OS-agnostic design  
-Entry points: run_udt.py, cli.py  
+This repository contains the complete, frozen, canonical implementation.
 
-Verified by clean restarts, cache purges, and reproducible executions.
+---
 
-EXECUTION PIPELINE
-Input (string) → Phase Projection (Imago) → Lambda Engine (POOR + PCM) → Sigma Audit → Gödel Field → Branch Expansion (GROUP / ENTITY) → Deterministic Structured Output
+### 1. THE SIGNIFICANCE (Why use this?)
 
-INVARIANTS
-No step feeds back into Imago.  
-No parameters are updated.  
-No hidden global state exists.  
-No learning loop is present.
+Standard LLMs mix memory and creativity in a black box, leading to uncontrollable hallucinations. 
+Dephaze UDT separates them:
 
-CORE COMPONENTS
+*   **The Body (UDT):** A rigid, deterministic phase-space map. It never lies. If it knows a fact, it returns it with 100% stability.
+*   **The Soul (Flux Motor):** A generative engine based on $\Phi^3$ geometry. It creates new ideas ("controlled hallucinations") only when necessary.
+*   **The Mind (Gödel Filter):** A topological auditor. It checks if the Flux Motor's new idea resonates with the existing map. 
+    *   If it fits topology -> **Hypothesis**.
+    *   If it breaks topology -> **Noise (Rejected)**.
 
-Imago Phase Field  
-Deterministic projection into bounded phase coordinates (θ, φ, ρ). This is NOT an embedding and NOT semantic similarity. Identical input strings yield identical coordinates.
+**Result:** A system that can be creative without being delusional.
 
-Lambda Engine (POOR + PCM)  
-Ontological resolution and local stabilization only. Selects a stable phase candidate and applies local coherence stabilization. No global feedback, no learning, no adaptation. Outputs chosen phase, confidence (structural, not probabilistic), and xi (coherence ratio).
+---
 
-Sigma Audit  
-Local coherence monitoring only. Tracks history_len, xi, and spread. Sigma never alters phase state; it audits only and prevents uncontrolled drift.
+### 2. HOW TO BUILD THE FULL SYSTEM (Installation & Growth)
 
-Gödel Field  
-Structural extraction layer. Extracts explicit relations of the form (subject) --[relation]--> (object) and mentions. No influence on phase, no inference loops, no learning. This is structural extraction, not NLP reasoning.
+This repository provides the **Engine**. To make it a "Full System" (a wise Oracle), you must provide the **Stars** (Knowledge).
 
-Branch Expansion  
-Implemented branches: GROUP, ENTITY. Branches are evaluated independently. Each branch runs a full Phase → Lambda → Sigma cycle. No branch contaminates another.
+#### A. Installation
+1.  Ensure Python 3.10+ is installed.
+2.  Install dependencies: `pip install numpy requests`
+3.  Unzip this package.
 
-ATLAS (STAR MAP)
-Loaded, static, read-only. Used only for validation and anchoring. Not memory, not training data, not adaptive.
+#### B. Running the Engine (The Console)
+To see the system think, decide, and generate hypotheses:
+`python run_udt.py`
 
-WORLD STATE GOVERNANCE
-An immutable world snapshot is included: data/world_animals_v1.lock.json. The world state does not grow automatically. There is no uncontrolled knowledge expansion. All world data is explicit, governed, and auditable. New world states require explicit rebuild and re-lock.
+*   **Try:** Enter known terms (e.g., "cat"). The system uses the UDT Structure (Fact).
+*   **Try:** Enter abstract/new concepts. The system detects low confidence, ignites the **Flux Motor**, generates a hypothesis, and the **Gödel Filter** validates it against your Atlas.
 
-WIKIPEDIA ACCESS (CURRENT)
-Optional, explicit, online, read-only, and policy-gated. No crawling, no background access, no caching, and no learning from external content. Wikipedia is treated strictly as external evidence, never internal state.
+#### C. Running Headless (CLI / Scripting)
+`python cli.py "your query here" --flux-threshold 0.95`
 
-CURRENT CAPABILITIES
-Deterministic mapping of language input to phase coordinates.  
-Stable ontological branching.  
-Explicit structural relation extraction.  
-Coherence preservation without learning.  
-Structural scalability without degradation.  
-Audit-safe and reproducible execution.
+#### D. **CRITICAL STEP: Growing the Atlas**
+The system comes with a minimal Atlas (2-3 stars). To make it intelligent, you must map reality into it. 
+**You do not train it.** You commit stars.
 
-EXPLICIT NON-CAPABILITIES
-No learning.  
-No adaptation.  
-No embeddings.  
-No probability.  
-No hallucination.  
-No global memory accumulation.  
-No semantic similarity search.
+1.  Use the Commit Tool:
+    `python atlas_commit.py "Quantum mechanics"`
+    `python atlas_commit.py "General relativity"`
+    `python atlas_commit.py "Topology"`
 
-STRUCTURAL SCALABILITY
-Dephaze UDT scales structurally, not statistically. The current Wikipedia integration is a minimal baseline. The architecture supports extension to full world-scale structural star maps under the same deterministic rules. As structural coverage increases, coherence improves, ambiguity decreases, and performance becomes faster and more stable. This is the inverse behavior of training-based or embedding-based systems.
+2.  **What happens?** 
+    The tool calculates the precise Phase Coordinate ($\theta, \phi, \rho$) of the concept and "anchors" it in `atlas_stars.json`.
 
-SCOPE AND NON-CLAIMS
-This implementation does not implement the full DephazeAI cognitive architecture, does not implement the full NORTH system, does not perform physical simulation, and does not claim numerical validation of physical theories. It represents a deterministic structural substrate inspired by the broader Dephaze framework.
+3.  **The Result:**
+    As you add stars, the **Gödel Filter** becomes smarter. It stops linking hypotheses to 'unknown' and starts linking them to specific domains (e.g., "Hypothesis linked to 'Physics'").
 
+---
 
-LICENSE
-© 1992–2025 Angus Dewer / Dephaze Manufacture. All rights reserved. This software and associated materials are provided for inspection, evaluation, and reproducibility only. Any use, reproduction, modification, or redistribution requires explicit written permission from the author.
+### 3. SYSTEM ARCHITECTURE
 
-CANONICAL STATUS
-This repository and this document constitute Dephaze UDT v1.0 — Canonical Frozen Implementation. All future work must explicitly reference this state.
+**Input** (String) 
+   ↓
+**Phase Projection** (Imago) -> *Maps text to geometry*
+   ↓
+**Lambda Engine** (Resolver) -> *Checks known stars*
+   ↓
+   ├─ **If High Confidence:** -> Return FACT (UDT)
+   │
+   └─ **If Low Confidence:** -> **IGNITE FLUX MOTOR** ($\Phi^3$)
+          ↓
+      **Generative Twist** -> *Creates new phase candidate*
+          ↓
+      **Gödel Filter** -> *Audits topology against Atlas*
+          ↓
+      **Verdict** -> HYPOTHESIS or NOISE
+
+---
+
+### 4. SYSTEM STATE (VERIFIED)
+
+*   **Status:** STABLE (Hybrid Mode)
+*   **Determinism:** HARD (Flux uses seed-based entropy)
+*   **Learning:** STRUCTURAL (via Atlas Commits, no backprop)
+*   **Hallucination:** CONTROLLED (Filtered by Gödel)
+*   **Memory:** PERMANENT (Atlas stars do not fade)
+
+### 5. LICENSE & USAGE
+
+© 1992–2025 Angus Dewer / Dephaze Manufacture.
+Provided for inspection, scientific evaluation, and structural reproduction.
+This is a clean-room implementation of the Dephaze theory.
+
+**The code is complete. The map is yours to build.**
